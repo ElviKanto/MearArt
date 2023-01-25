@@ -197,6 +197,22 @@ img {
 
 /* Gallery */
 
+#cases .row {
+  max-height: 1000px;
+}
+
+#cases img {
+  height: 45vh;
+}
+
+.gallery1 img {
+  max-height: 260px;
+}
+
+.gallery2 img {
+  max-height: 450px;
+}
+
 /* Footer */
 .footer {
   display: flex;
