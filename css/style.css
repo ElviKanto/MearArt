@@ -41,8 +41,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333333;
-  color: #ffffff;
+  color: #333333;
+  background-color: #ffffff;
   opacity: 0.8;
   width: 100%;
   height: 70px;
@@ -53,12 +53,13 @@ img {
   transition: 0.5s;
 }
 
-.navbar.top {
+/* .navbar.top {
   background: transparent;
-}
+} */
 
 .navbar a {
-  color: #ffffff;
+  color: black;
+  font-weight: bold;
   padding: 10px 20px;
   margin: 0 5px;
 }
@@ -205,9 +206,16 @@ img {
   height: 45vh;
 }
 
-.gallery1 img {
-  max-height: 260px;
+.description {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
 }
+
+/* .gallery1 img {
+  max-height: ;
+}
+ */
 
 .gallery2 img {
   max-height: 450px;
